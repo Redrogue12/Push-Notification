@@ -26,6 +26,12 @@ main {
   width: 100%;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -37,6 +43,15 @@ input {
 
 textarea {
   min-height: 60px;
+}
+
+button {
+  width: 100px;
+  margin: 1.5em auto;
+}
+
+label {
+  margin-top: 1.5em;
 }
 
 footer>a, footer>p {
@@ -55,7 +70,12 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  main {
+    flex-direction: column;
+  }
+
+  form {
+    max-width: 300px;
+    margin: auto;
   }
 }
