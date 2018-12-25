@@ -24,6 +24,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  color: #261C15;
 }
 
 section {
@@ -48,6 +49,8 @@ textarea {
 button {
   width: 100px;
   margin: 1.5em auto;
+  background-color: #016FB9;
+  color: white;
 }
 
 label {
@@ -58,6 +61,11 @@ footer>a, footer>p {
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C5D86D;
 }
 
 footer {
