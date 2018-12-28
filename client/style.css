@@ -18,6 +18,10 @@ header {
   width: 100%;
 }
 
+.fa-arrow-up {
+  color: #C5D86D;
+}
+
 main {
   font-size: 1.1em;
   font-weight: bold;
